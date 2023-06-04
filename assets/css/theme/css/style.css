@@ -859,15 +859,15 @@ blockquote {
 }
 
 ul, ol, pre, blockquote {
-  margin-bottom: 2.3125rem;
+  margin-bottom: -2.3125rem;
 }
 
 .mt-4 {
-  margin-top: 2rem !important;
+  margin-top: -2rem !important;
 }
 
 .mb-4 {
-  margin-bottom: 2rem !important;
+  margin-bottom: -2rem !important;
 }
 
 @media (min-width: 992px) {
@@ -895,6 +895,7 @@ ul, ol, pre, blockquote {
   .container-fluid {
     padding-left: 32px;
     padding-right: 32px;
+    padding-top: -32px;
   }
 }
 
