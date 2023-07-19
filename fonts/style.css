@@ -1,0 +1,7 @@
+@font-face {
+   font-family: 'Plat Nomor';
+   font-style: regular;
+   font-display: swap;
+   font-weight: 100;
+   src: local(PlatNomor) format('truetype');
+}
